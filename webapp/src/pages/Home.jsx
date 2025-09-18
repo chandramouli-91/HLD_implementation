@@ -107,7 +107,7 @@ function Home() {
           type={Button.ButtonTypes.DESTRUCTIVE}
           onClick={() => setIsModalOpen(true)}
         >
-          Create report
+          Create report as
         </Button>
       </main>
 
