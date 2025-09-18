@@ -1,0 +1,24 @@
+time="2025-09-18T17:41:36+05:30" level=info msg="Starting NDB PreCheck Service..."
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /vite.svg                 --> main.main.(*RouterGroup).StaticFile.func2 (4 handlers)
+[GIN-debug] HEAD   /vite.svg                 --> main.main.(*RouterGroup).StaticFile.func2 (4 handlers)
+[GIN-debug] GET    /clipboard.png            --> main.main.(*RouterGroup).StaticFile.func3 (4 handlers)
+[GIN-debug] HEAD   /clipboard.png            --> main.main.(*RouterGroup).StaticFile.func3 (4 handlers)
+[GIN-debug] POST   /api/check                --> main.handleCheck (4 handlers)
+[GIN-debug] GET    /api/progress             --> main.getProgress (4 handlers)
+[GIN-debug] GET    /api/summary              --> main.handleSummaryAPI (4 handlers)
+[GIN-debug] GET    /api/dbservers            --> main.handleDBServersAPI (4 handlers)
+[GIN-debug] GET    /api/instances            --> main.handleInstancesAPI (4 handlers)
+[GIN-debug] GET    /api/databases            --> main.handleDatabasesAPI (4 handlers)
+time="2025-09-18T17:41:36+05:30" level=info msg="Server starting on port :8080"
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] [ERROR] listen tcp :8080: bind: address already in use
